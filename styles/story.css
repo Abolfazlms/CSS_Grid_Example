@@ -1,6 +1,5 @@
 .story{
-    grid-column: 1/ 7;
-    grid-template-columns:repeat(3,min-content) ;
+    grid-column: 1/ 7;    
 }
 .story_images{
     display: grid;
