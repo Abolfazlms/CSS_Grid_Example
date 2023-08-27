@@ -1,7 +1,7 @@
 .header{
     background-color:#1976D2 ;
     grid-column: 1/ 7;
-    background-image: linear-gradient(to bottom,#3636364f,#212121), url("../images/1.jpg");
+    background-image: linear-gradient(to bottom,#3636364f,#212121), url("../images/site_header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
@@ -39,4 +39,9 @@
     background-color: #ffffff;
     color: #FBC02D;
     transition: all 0.4s;
+}
+@media screen and (max-width:500px){
+    .header{
+        background-position-x: 10% ;
+    }
 }

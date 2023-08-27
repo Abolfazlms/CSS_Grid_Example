@@ -17,3 +17,26 @@ body{
     grid-template-rows: 80vh repeat(5,max-content);
     grid-template-columns: repeat(6,1fr);
 }
+.section_title{
+    margin: 5px auto;
+    text-align: center;
+    color: #FBC02D;
+    padding: 28px;
+    font-size: 2rem;
+}
+.section_title::before,
+.section_title::after{
+    background-color: rgb(100, 0, 57);
+    content: "";
+    display: inline-block;
+    height: 1.5px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+}
+.section_title::before{
+    right: 0.5rem;
+}
+.section_title::after{
+    left: 0.5rem;
+}
