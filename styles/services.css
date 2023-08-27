@@ -1,5 +1,6 @@
 .services{
     grid-column: 2/ 6;
+    color: #FBC02D;
 }
 .services_section{
     display: grid;
@@ -8,9 +9,6 @@
     grid-gap: 50px;
     grid-auto-rows: 250px;
     padding-bottom: 70px;
-}
-.service_box{
-
 }
 .service_image{
     width: 100%;
