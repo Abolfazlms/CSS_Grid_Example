@@ -1,3 +1,4 @@
 .gallery{
     background-color:#F9A825 ;
+    grid-column: 1/ 7;
 }
